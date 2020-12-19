@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(
+      circle at 48% 77%,
+      rgba(27, 27, 27, 0.04) 0%,
+      rgba(27, 27, 27, 0.04) 50%,
+      rgba(135, 135, 135, 0.04) 50%,
+      rgba(135, 135, 135, 0.04) 100%
+    ),
+    radial-gradient(
+      circle at 74% 36%,
+      rgba(223, 223, 223, 0.04) 0%,
+      rgba(223, 223, 223, 0.04) 50%,
+      rgba(113, 113, 113, 0.04) 50%,
+      rgba(113, 113, 113, 0.04) 100%
+    ),
+    radial-gradient(
+      circle at 62% 13%,
+      rgba(16, 16, 16, 0.04) 0%,
+      rgba(16, 16, 16, 0.04) 50%,
+      rgba(168, 168, 168, 0.04) 50%,
+      rgba(168, 168, 168, 0.04) 100%
+    ),
+    linear-gradient(223deg, rgb(37, 143, 136), rgb(87, 117, 249));
+}
+
+a {
+  color: #0f0f0f;
+  transition: 0.3s ease-out;
+}
+a:hover {
+  color: #000;
+}
